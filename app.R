@@ -1,7 +1,8 @@
 library(shiny)
 
 # Define a list of words for the game
-words <- c("hangman", "programming", "shiny", "authentication", "azure", "container")
+words <- c("hangman", "programming", "shiny", "authentication", "azure",
+           "container", "Eleanor")
 
 ui <- fluidPage(
   
