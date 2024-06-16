@@ -1,0 +1,34 @@
+// Instalação:
+sudo apt install docker-buildx
+
+// Adicione seu usuário ao grupo docker:
+
+sudo usermod -aG docker $USER
+
+// Reinicie:
+
+sudo reboot
+
+// Após reiniciar a sessão ou o sistema, verifique se o usuário está no grupo docker:
+
+groups
+
+// O comando acima deve listar docker entre os grupos do usuário.
+
+// Teste o Docker novamente:
+
+docker run hello-world
+
+// Verifique o Dockerfile: Certifique-se de que o Dockerfile está presente no diretório ./meuDiretorio. 
+// O Docker precisa de um arquivo chamado Dockerfile (com D maiúsculo) para construir a imagem.
+cd /caminho/para/shiny-azure-app-service
+
+// Construa a imagem:
+
+docker build -t shiny-azure-app-service .
+
+// Checar se o Docker foi feito de maneira correta:
+// docker run --rm -p PORT:PORT myimage
+
+docker run --rm -p 3838:3838 shiny-azure-app-service
+
