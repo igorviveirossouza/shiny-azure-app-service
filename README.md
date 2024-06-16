@@ -27,10 +27,6 @@ Microsoft Entra ID is included with Microsoft cloud subscriptions such as Micros
 
 ⚠️ Note that another option is to use Azure Container Apps, which has a different pricing model and a slightly different aim. I've chosen Azure App Service here because I've worked with it before, but do your research before you pick something!
 
-# Watch tutorials on YouTube
-
-1️⃣  ["Deploying Your Shiny Application to Azure App Service"](https://youtu.be/Phnihe6cBgE)
-2️⃣  ["Adding Authentication to Azure App Service"](https://youtu.be/2vZDTIb6KWc)
 
 # Plumber API to Azure App Service
 
